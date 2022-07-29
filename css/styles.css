@@ -220,13 +220,14 @@ input.checkbox:checked + .checkbox-box {
   border-radius: 2px;
   fill: var(--color-white);
 }
+
 input.checkbox:focus + .checkbox-box {
   border: 1px solid var(--accent-color);
 }
 
 .checkbox-icon {
-  width: 11px;
-  height: 8px;
+  width: 16px;
+  height: 15px;
 }
 .checkbox-label-text {
   color: var(--accent-color);
@@ -276,6 +277,11 @@ input.checkbox:focus + .checkbox-box {
   background-color: var(--color-white);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
+  transition: fill var(--cubik);
+}
+.modal-button:hover,
+.modal-button:focus {
+  fill: var(--accent-color);
 }
 
 /* hedder */
@@ -634,7 +640,7 @@ input.checkbox:focus + .checkbox-box {
 
 .filter button {
   padding: 6px 22px;
-  font-family: inherit;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
