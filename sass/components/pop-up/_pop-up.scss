@@ -126,6 +126,9 @@
   position: absolute;
   top: -50px;
   left: -50px;
+  &:focus + .checkbox__icon .checkbox__icon-uncheck {
+    fill: $accent-color;
+  }
   &:checked + .checkbox__icon .checkbox__icon-uncheck {
     opacity: 0;
     transition: opacity $cubik;
@@ -134,7 +137,9 @@
     opacity: 1;
   }
 }
-
+.checkbox__icon-uncheck {
+  fill: $primary-text-color;
+}
 .checkbox__icon-check {
   opacity: 0;
   transition: opacity $cubik;
