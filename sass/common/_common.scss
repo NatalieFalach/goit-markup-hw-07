@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: $font-default;
   color: $primary-text-color;
   background-color: $color-white;
   letter-spacing: 0.03em;
@@ -14,39 +14,9 @@ body {
   min-width: 1200px;
 }
 
-.logo {
-  color: #000000;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  text-decoration: none;
-  .color-accent {
-    color: $accent-color;
-  }
-}
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-
-%button {
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: calc(30 / 16);
-  color: $color-white;
-  background: $accent-color;
-  border: 0;
-  border-radius: 4px;
-  cursor: pointer;
-  &:hover,
-  &:focus {
-    background: #188ce8;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    outline: transparent;
-  }
 }
 
 .card-set {
@@ -62,15 +32,15 @@ body {
 //  Глобальный h2
 .subject {
   font-style: normal;
-  font-size: 36px;
+  font-size: $font-36;
   line-height: 1.2;
   text-align: center;
 }
 
 // глобальный h3
 .basic-heding {
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: $weight-400;
+  font-size: $font-14;
   line-height: calc(16 / 14);
   text-transform: uppercase;
 }

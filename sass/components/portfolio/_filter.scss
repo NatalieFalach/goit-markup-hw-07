@@ -15,7 +15,7 @@
 .filter__btn {
   @extend %button;
   padding: 6px 22px;
-  font-weight: 500;
+  font-weight: $weight-500;
   line-height: 1.9;
   color: $primary-text-color;
   background: $light-grey-background;

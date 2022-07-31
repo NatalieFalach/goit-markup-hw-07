@@ -21,13 +21,13 @@
 }
 
 .advantage__header {
-  font-weight: 700;
+  font-weight: $weight-700;
   margin-top: 30px;
 }
 
 .advantage__text {
   margin-top: 10px;
-  font-size: 14px;
+  font-size: $font-14;
   line-height: 1.7;
   color: $secondary-text-color;
 }

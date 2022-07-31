@@ -45,8 +45,8 @@
 }
 
 .modal__title {
-  font-weight: 700;
-  font-size: 20px;
+  font-weight: $weight-700;
+  font-size: $font-20;
   line-height: calc(23 / 20);
   text-align: center;
   color: $primary-text-color;
@@ -117,7 +117,7 @@
   align-items: center;
   justify-content: center;
   margin-top: 20px;
-  font-size: 14px;
+  font-size: $font-14;
   line-height: calc(24 / 14);
   color: $secondary-text-color;
 }
